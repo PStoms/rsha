@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+kasutaja='cat /home/user/praks2/kasut/'
+while read kasutaja; do
+        deluser --remove-home $kasutaja
+
+done < /home/user/praks2/kasut
+#
+#skripti lõpp
+
