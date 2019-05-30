@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+if apt install phpmyadmin -y | grep -c "newest version" ; then
+# hakkab phpmyadmin installima, kui phpmyadmin on juba installitud siis ütleb et phpmyadmin is already installed
+        echo "phpmyadmin is already installed"
+fi
