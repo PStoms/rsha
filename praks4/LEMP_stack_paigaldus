@@ -1,0 +1,20 @@
+#!/bin/bash
+#
+#
+	#Keelab apache2
+systemctl disable apache2
+
+	#Paigaldab nginx
+./nginx_install	
+
+ 	#Paigaldab php
+./install_php
+
+	#Paigaldab mysqli
+./mysql_install	
+
+	#Paigaldab phpmyadmini
+./phpmyadmin_install
+
+	#Paigaldab wordpressi
+./wordpress_install
